@@ -6,12 +6,13 @@ import Courses from './components/Courses';
 import Training from './components/Training';
 import Testimonies from './components/Testimonies';
 import Contact from './components/Contact';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>In my App</h1>
     <BrowserRouter>
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />

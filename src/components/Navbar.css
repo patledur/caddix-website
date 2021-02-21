@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    margin: 1em 0;
+    margin-left: 2em;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+Link{
+    color: black;
+}
