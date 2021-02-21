@@ -7,12 +7,14 @@ const Navbar = () => {
         <header>
             <div className="logo">CADDIX</div>
             <div className="navbar">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/courses">Courses</Link>
-                <Link to="/training">Training</Link>
-                <Link to="/Testimonies">Testimonies</Link>
-                <Link to="/contact">Contact</Link>
+                <ul className="nav-menu">
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/courses">Courses</Link></li>
+                    <li><Link to="/training">Training</Link></li>
+                    <li><Link to="/Testimonies">Testimonies</Link></li>
+                    <li> <Link to="/contact">Contact</Link></li>
+                </ul>
             </div>
         </header>
     )
